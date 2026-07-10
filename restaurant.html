@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu Page</title>
+
+</head>
+<body>
+    <header>
+        <h1>La Bella Italia</h1>
+        <p>Authentic Italian Cuisine</p>
+        <img src="https://images.unsplash.com/photo-1722587544083-057ef8a58925?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGl0YWxpYW4lMjByZXN0YXVyYW50JTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D" alt="Italian restaurant interior"  width="450">
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>About us</h2>
+            <p>Welcome to La Bella Italia! We opened our doors in 2015 with one simple goal: to bring authentic Italian flavors to your table. Our recipes come from small family kitchens in Tuscany and Naples, passed down through generations.
+
+We use only fresh, high-quality ingredients and traditional cooking methods. Every dish is made with love and care, just like a true Italian nonna would make it. Come sit with us and enjoy a real taste of Italy.</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Menu</h2>
+            <section>
+                <h3>Starters</h3>
+                <img src="https://images.unsplash.com/photo-1506280754576-f6fa8a873550?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJ1c2NoZXR0YXxlbnwwfHwwfHx8MA%3D%3D" alt="italian starters" width="250">
+                <table border="1">
+                    <tr>
+                        <th>Dish</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Arancini</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Caprese Salad</td>
+                        <td>$9</td>
+                    </tr>
+                    <tr>
+                        <td>Calamari Fritti</td>
+                        <td>$12</td>
+                    </tr>
+                     <tr>
+                        <td>Bruschetta al Pomodoro</td>
+                        <td>$8</td>
+                    </tr>
+                      <tr>
+                        <td>Carpaccio di Manzo</td>
+                        <td>$14</td>
+                    </tr>
+                </table>
+            </section>
+            <hr>
+            <section>
+                <h3>Main Course</h3>
+                <img src="https://plus.unsplash.com/premium_photo-1677000666741-17c3c57139a2?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFzdGElMjBkaXNoZXN8ZW58MHx8MHx8fDA%3D" alt="main course" width="250">
+                <table border="1">
+                    <tr>
+                        <th>Dish</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Spaghetti Carbonara</td>
+                        <td>$16</td>
+                    </tr>
+                    <tr>
+                        <td>Fettuccine Alfredo</td>
+                        <td>$16</td>
+                    </tr>
+                    <tr>
+                        <td>Margherita Pizza</td>
+                        <td>$14</td>
+                    </tr>
+                    <tr>
+                        <td>Risotto ai Funghi</td>
+                        <td>$17</td>
+                    </tr>
+                     <tr>
+                        <td>Osso Buco</td>
+                        <td>$24</td>
+                    </tr>
+                
+                </table>
+            </section>
+            <hr>
+            <section>
+                <h3>Desserts</h3>
+                <img src="https://plus.unsplash.com/premium_photo-1695028378225-97fbe39df62a?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGlyYW1pc3V8ZW58MHx8MHx8fDA%3D" alt="dessert" width="250">
+                <table border="1">
+                    <tr>
+                        <th>Dish</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Tiramisu</td>
+                        <td>$8</td>
+                    </tr>
+                    <tr>
+                        <td>Panna Cotta</td>
+                        <td>$8</td>
+                    </tr>
+                    <tr>
+                        <td>Cannoli</td>
+                        <td>$6</td>
+                    </tr>
+                    <tr>
+                        <td>Gelato (3 scoops)</td>
+                        <td>$6</td>
+                    </tr>
+
+                </table>
+            </section>
+        </section>
+        <hr>
+        <hr>
+        <section>
+           <h2>Reservation</h2> 
+           <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full Name">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+            <br>
+            <label for="Phone">Phone number</label>
+            <input type="number" id="phone" name="phone" placeholder="Enter your phone number">
+<!-- Number of Guests -->
+            <h3>Number of Guests</h3>
+            <select name="guests" id="guests">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+<!-- date -->
+            <label for="date">Reservation Date</label>
+            <input type="date" id="date" name="date">
+            <br>
+<!-- tabel -->
+ <h3>Table Preference</h3>
+            <label for="indoor">Indoor</label>
+            <input type="radio" id="indoor" name="table" value="Indoor">
+            <label for="outdoor">Outdoor</label>
+            <input type="radio" id="outdoor" name="table" value="Outdoor">
+            <label for="bar">Bar Seating</label>
+            <input type="radio" id="bar" name="table" value="Bar Seating">
+            <br>
+            <input type="submit" name="submit" value="Send">
+            
+
+           </form>
+        </section>
+        
+            
+        
+    </main>
+    <hr>
+    <hr>
+    <footer>
+        
+             <h3>Our opening</h3>
+        <p><b>Monday - Saturday</b></p> 
+        <p>8:00 Am-11:30 PM</p>
+        <p><b>Sunday</b></p> 
+        <p>9:00 Am-11:00 PM</p>
+        
+       
+        <h3>Address</h3>
+        <p>Via Roma 25, 20121 Milan, Italy</p>
+
+<h3>Phone</h3>
+<p>+39 02 1234 5678</p>
+
+<h3>Follow us on Instagram</h3>
+<a href="https://instagram.com/labellaitalia_official">Instagram La Bella Italia</a>
+<hr>
+<p>© 2026 La Bella Italia. All rights reserved.</p>
+
+
+    </footer>
+    
+</body>
+</html>
