@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Restaurant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">La Bella Italia</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero" id="home">
+            <div>
+                <p class="tagline">Taste of Italy</p>
+            <h1>Bring authentic Italian flavor to your table</h1>
+            <p class="hero-desc">From homemade pasta to wood-fired pizza, every dish is made with love and tradition.</p>
+         
+            <a href="#reservation"><button>Reserve a Table</button></a>
+
+            <a href="#menu"> <button>View Menu</button></a>
+         
+            
+            </div>
+            
+            <img class="hero-img" src="https://images.unsplash.com/photo-1680405620826-83b0f0f61b28?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvb2QlMjBmaXJlZCUyMHBpenphfGVufDB8fDB8fHww" alt="italian Pizza" >
+        </div>
+
+        
+    </header>
+    <main>
+          <section class="about" id="about">
+            
+            <div class="about-content">
+                <img src="https://images.unsplash.com/photo-1651607826814-f25e667a9338?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGl0YWxpYW4lMjByZXN0YXVyYW50JTIwdGVhbXxlbnwwfHwwfHx8MA%3D%3D" alt="our team" class="about-img">
+                <div>
+                    <h2>About us</h2>
+                    <p class="about-desc">Welcome to La Bella Italia! We opened our doors in 2015 with one simple goal: to bring authentic Italian flavors to your table. Our recipes come from small family kitchens in Tuscany and Naples, passed down through generations.
+</p>
+                    <p class="about-desc">We use only fresh, high-quality ingredients and traditional cooking methods. Every dish is made with love and care, just like a true Italian nonna would make it. From the moment you walk through our doors, you'll feel the warmth of Italian hospitality surround you.
+</p>
+                    <p class="about-desc">Our chefs bring decades of experience from some of the finest kitchens in Italy, and every plate that leaves our kitchen tells a story of passion, tradition, and craftsmanship. Whether you're joining us for a quiet dinner, a family celebration, or a night out with friends, we want every visit to feel like coming home.
+</p>
+                    <p class="about-desc">Come sit with us and enjoy a real taste of Italy — one dish, one story, one memory at a time.
+</p>
+            </div>
+                </div>
+                
+        </section>
+        <section class="menu" id="menu">
+            <h2>Our Menu</h2>
+            
+<div class="divider"></div>
+            <div class="menu-items">
+               <a href="starters.html">
+                <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1506280754576-f6fa8a873550?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJ1c2NoZXR0YXxlbnwwfHwwfHx8MA%3D%3D" alt="italian starters" >
+                <h3>Starters</h3>
+                <p>Fresh appetizers to start your Italian journey.</p>
+
+                </div>
+               </a> 
+                <a href="main-course.html"> 
+                <div class="menu-item">
+                <img src="https://plus.unsplash.com/premium_photo-1677000666741-17c3c57139a2?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFzdGElMjBkaXNoZXN8ZW58MHx8MHx8fDA%3D" alt="main course" >
+                <h3>Main Course</h3>
+                <p>Authentic pasta and wood-fired pizza.</p>
+                </div>
+                </a>
+
+                
+                <a href="Desserts.html"> 
+                <div class="menu-item">
+                <img src="https://plus.unsplash.com/premium_photo-1695028378225-97fbe39df62a?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGlyYW1pc3V8ZW58MHx8MHx8fDA%3D" alt="dessert" >
+                <h3>Desserts</h3>
+                <p>Sweet classics to end your meal.</p>
+
+                </div>
+                </a>
+            </div>
+        </section>
+        <section class="reservation" id="reservation">
+        <h2>Reservation</h2> 
+        <div class="reservation-card">
+            <form >
+            <div>
+                <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full Name">
+            </div>
+            
+            <br>
+            <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+            </div>
+            
+            <br>
+            <div>
+                <label for="phone">Phone number</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+            <br>
+            <div>
+                <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" name="number" placeholder="Enter number of Guests">
+            </div>
+            <br>
+
+<!-- date -->
+            <label for="date">Reservation Date</label>
+            <input type="date" id="date" name="date">
+            <br>
+<!-- tabel -->
+ <h4>Table Preference</h4>
+ <div><label for="indoor">Indoor</label>
+            <input type="radio" id="indoor" name="table" value="Indoor">
+            <label for="outdoor">Outdoor</label>
+            <input type="radio" id="outdoor" name="table" value="Outdoor">
+            <label for="bar">Bar Seating</label>
+            <input type="radio" id="bar" name="table" value="Bar Seating">
+            </div>
+            
+            <br>
+            <input type="submit" name="submit" value="Send" class="submit-button">
+            
+
+           </form>
+
+        </div>
+           
+        </section>
+        <section id="contact" class="contact">
+
+        
+             
+            
+             <div class="contact-info">
+                <h3>Contact with us</h3>
+                <br>
+             <p>Monday - Saturday</p> 
+        <p>8:00 Am-11:30 PM</p>
+        <p>Sunday</p> 
+        <p>9:00 Am-11:00 PM</p>
+        
+       <br>
+        <p>Address</p>
+        <p>Via Roma 25, 20121 Milan, Italy</p>
+<br>
+<p>Phone</p>
+<p>+39 02 1234 5678</p>
+<br>
+
+<p>Follow us on Instagram</p>
+<div><a href="https://instagram.com/labellaitalia_official" class="instgram"><b>Instagram La Bella Italia</b></a>
+</div>
+             </div>
+    <div class="contact-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22382.353888264526!2d9.161978043525517!3d45.473948742669684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6ab76836fdd%3A0x16966d59fc5a5e6!2sPiz!5e0!3m2!1sen!2sde!4v1785696230950!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="contact-map"></iframe><br>
+        
+    </div>    
+
+        </section>
+        <footer>
+            <p class="footer">© 2026 La Bella Italia. All rights reserved.</p>
+
+        </footer>
+        
+        
+    </main>
+    
+    
+</body>
+</html>
