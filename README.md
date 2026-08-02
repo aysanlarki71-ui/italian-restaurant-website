@@ -1,17 +1,18 @@
-# italian-restaurant-website
-A simple restaurant website built with HTML
+# Italian Restaurant Website
+
+A restaurant landing page built while learning web development, from HTML basics to a fully styled multi-page site.
 
 ## About
 
-This project is part of my journey learning web development. It's a landing page for a fictional Italian restaurant called "La Bella Italia," including a menu, restaurant info, and a table reservation form.
+This project is for a fictional Italian restaurant, "La Bella Italia." It includes a homepage with an About section, menu categories linking to detailed pages, a reservation form, and a contact section with an embedded map.
 
 ## Technologies Used
 
-- HTML5
-- Semantic tags: `header`, `main`, `section`, `footer`
-- Tables for the menu
-- A full reservation form (text, email, number, date, radio buttons, dropdown select)
-- Images
+- HTML5 & CSS3
+- Flexbox for layout
+- Google Fonts (Playfair Display, Dancing Script)
+- Google Maps embed
+- Multi-page structure (separate pages for each menu category)
 
 ## Images
 
@@ -19,4 +20,4 @@ Images used in this project are from [Unsplash](https://unsplash.com), free to u
 
 ## Status
 
-This is a learning project. CSS styling will be added in the next phase to improve the layout and design.
+Core structure and styling complete. JavaScript features (like form validation) may be added next.
